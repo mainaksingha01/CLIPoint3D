@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         td, th {
+         border: 0px solid black;
+         }
+         img{
+         padding: 5px;
+         }
+      </style>
+      <title>CLIPoint3D: Language-Grounded Few-Shot Unsupervised 3D Point Cloud Domain Adaptation</title>
+      <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+         rel="stylesheet">
+      <link rel="stylesheet" href="./static/css/bulma.min.css">
+      <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+      <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+      <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+      <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      <link rel="stylesheet" href="./static/css/index.css">
+      <link rel="icon" href="./static/images/favicon.svg">
+      <link rel="stylesheet" href="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css">
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script defer src="./static/js/fontawesome.all.min.js"></script>
+      <script src="./static/js/bulma-carousel.min.js"></script>
+      <script src="./static/js/bulma-slider.min.js"></script>
+      <script src="./static/js/index.js"></script>
+   </head>
+   <section class="hero">
+      <div class="hero-body">
+         <div class="container is-max-desktop">
+            <div class="columns is-centered">
+               <div class="column has-text-centered">
+                  <div class='nav-brand'> 
+                     <img src='static/images/cvpr.png' alt='Aston-Aurrigo' width='1000px' height='600px'> 
+                   </div> 
+                  <h1 class="title is-1 publication-title">
+                     <span style="color:purple;">CLIPoint3D:</span> Language-Grounded Few-Shot <span style="color:purple;">Unsupervised 3D Point Cloud Domain Adaptation</span>
+                   </h1>
+                  <!-- <h1 class="title is-4 publication-title">Image Retrieval Through Multimodal Prompt Learning</h1> -->
+                  <div class="is-size-5 publication-authors">
+                     <span class="author-block">
+                     <sup>*</sup><a href="https://mainaksingha01.github.io/">Mainak Singha</a><sup>1</sup>,</span>
+                     <span class="author-block">
+                     <sup>*</sup><a href="https://sarthakm320.github.io/">Sarthak Mehrotra</a><sup>2</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://scholar.google.com/citations?user=CSaXahIAAAAJ&hl=en">Paolo Casari</a><sup>1</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://scholar.google.com/citations?user=84VkdegAAAAJ&hl=en">Subhasis Chaudhuri</a><sup>3</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://scholar.google.com/citations?user=xf1T870AAAAJ&hl=en">Elisa Ricci</a><sup>1,4</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://biplab-banerjee.github.io/">Biplab Banerjee</a><sup>3</sup>,</span>
+                     <!-- <span class="author-block">
+			     <br>
+                     <a href="http://personal.ee.surrey.ac.uk/Personal/T.Xiang/index.html">Tao Xiang</a><sup>1,2</sup>,</span>
+                     <span class="author-block">
+                     <a href="http://personal.ee.surrey.ac.uk/Personal/Y.Song/">Yi-Zhe Song</a><sup>1,2</sup></span>	   -->
+                     </span>
+                  </div>
+                  <div class="is-size-5 publication-authors">
+                     <span class="author-block"><sup>1</sup>University of Trento, Italy </span>
+                     <br>
+                     <span class="author-block"><sup>2</sup>MDSR Labs Adobe, India</span>
+                     <br>
+                     <span class="author-block"><sup>3</sup>Indian Institute of Technology Bombay, India</span>
+                     <br>
+                     <span class="author-block"><sup>4</sup>Fondazione Bruno Kessler, Italy</span>
+                  </div>
+                  <!--     <div class="column has-text-centered">
+                     <a href="as">ICLR 2023</a>
+                     </span>
+                     </div> -->
+                  <div class="column has-text-centered">
+                     <div class="publication-links">
+                        <!-- PDF Link. -->
+                        <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2602.20409"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                        </a>
+                        </span>
+                        <span class="link-block">
+                        <a href="https://arxiv.org/abs/2602.20409"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                        </a>
+                        </span>
+                        <!-- Video Link.
+                        <span class="link-block">
+                        <a href="https://www.youtube.com/watch?v=ImcQFsS1SfE"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                        </span>
+                        <span>Video</span>
+                        </a>
+                        </span> -->
+                        <!-- Code Link. -->
+                        <span class="link-block">
+                        <a href="https://github.com/SarthakM320/CLIPoint3D"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                        <i class="fab fa-github"></i>
+                        </span>
+                        <span>Code</span>
+                        </a>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="hero teaser">
+      <div class="container is-max-desktop">
+         <div class="hero-body">
+            <img class="round" style="width:1500px" src="./static/images/teaser.png"/>
+            <h2 class="subtitle has-text-centered">
+               <span class="dnerf"></span>Comparison of CLIPoint3D with SOTA methods on GraspNetPC-10. <br> Encoder-based 3D UDA methods (e.g., PointDAN, GAST, MLSP) are accurate but computationally expensive, while CLIP-based extensions fail to bridge the synthetic-real gap. <br> CLIPoint3D achieves +16.4% improvement with minimal overhead.</h2>
+         </div>
+      </div>
+   </section>
+   <section class="section">
+   <div class="container is-max-desktop">
+   <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+         <h2 class="title is-3">Abstract</h2>
+         <div class="content has-text-justified">
+            Recent vision-language models (VLMs) such as CLIP demonstrate impressive cross-modal reasoning, extending beyond images to 3D perception. Yet, these models remain fragile under domain shifts, especially when adapting from synthetic to real-world point clouds. Conventional 3D domain adaptation approaches rely on heavy trainable encoders, yielding strong accuracy but at the cost of efficiency. We introduce CLIPoint3D, the first framework for few-shot unsupervised 3D point cloud domain adaptation built upon CLIP. Our approach projects 3D samples into multiple depth maps and exploits the frozen CLIP backbone, refined through a knowledge-driven prompt tuning scheme that integrates high-level language priors with geometric cues from a lightweight 3D encoder. To adapt taskspecific features effectively, we apply parameter-efficient fine-tuning to CLIP's encoders and design an entropyguided view sampling strategy for selecting confident projections. Furthermore, an optimal transport-based alignment loss and an uncertainty-aware prototype alignment loss collaboratively bridge source-target distribution gaps while maintaining class separability. Extensive experiments on PointDA-10 and GraspNetPC-10 benchmarks show that CLIPoint3D achieves consistent 3-16% accuracy gains over both CLIP-based and conventional encoder-based baselines. 
+            </p>
+         </div>
+      </div>
+   </div> 
+
+    <section class="hero architecture">
+      <div class="container is-max-desktop">
+         <div class="hero-body">
+            <center>
+            <img class="round" style="width:1500px" src="./static/images/architecture.png"/>
+            </center>
+            <h2 class="subtitle has-text-centered">
+               <span class="dnerf"></span>The model architecture for CLIPoint3D</h2>
+         </div>
+      </div>
+   </section>
+
+   <section class="hero">
+   <div class="hero-body">
+   <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+         <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <div class="content has-text-justified">
+               <center>
+                  <img src="static/images/pointnet.png" alt="qualitative results" border=0 height=200 width=1500/>
+               </center>
+               <h2 class="subtitle has-text-centered" style="font-family: Arial, sans-serif; font-size: 1.5rem; color: black; font-weight: normal; margin-top: -10px;">
+                  <span class="dnerf"></span>Domain adaptation performance on the PointDA-10 benchmark.</h2>
+			   <br>
+			   <br>			
+               <center>
+                  <img src="static/images/graspnetpc.png" alt="qualitative results" border=0 height=150 width=450/>
+               </center>
+               <h2 class="subtitle has-text-centered" style="font-family: Arial, sans-serif; font-size: 1.5rem; color: black; font-weight: normal; margin-top: -10px;">
+                  Domain adaptation performance on the GraspNetPC-10 benchmark.
+            <br>
+            <br>
+		         <center>
+                  <img src="static/images/tsne.png" alt="quantitative results" border=0 height=200 width=1500/>
+               </center>
+               <h2 class="subtitle has-text-centered" style="font-family: Arial, sans-serif; font-size: 1.5rem; color: black; font-weight: normal; margin-top: -10px;">
+                  t-SNE visualization of CLIPoint3D's performance before and after adaptation.
+            <br>	
+            <br>
+		         <center>
+                  <img src="static/images/llm.png" alt="quantitative results" border=0 height=200 width=1500/>
+               </center>
+               <h2 class="subtitle has-text-centered" style="font-family: Arial, sans-serif; font-size: 1.5rem; color: black; font-weight: normal; margin-top: -10px;">
+                  LLM attributes generation
+            <br>		
+            </div>
+         </div>
+      </div>
+   </div>
+   <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+         <h2 class="title">BibTeX</h2>
+         <textarea id="bibtex">
+            @article{singha2026clipoint3d,
+               title={CLIPoint3D: Language-Grounded Few-Shot Unsupervised 3D Point Cloud Domain Adaptation},
+               author={Singha, Mainak and Mehrotra, Sarthak and Casari, Paolo and Chaudhuri, Subhasis and Ricci, Elisa and Banerjee, Biplab},
+               journal={arXiv preprint arXiv:2602.20409},
+               year={2026}
+            }
+</textarea>
+      </div>
+   </section>
+   <script>
+      const viewers = document.querySelectorAll(".image-compare");
+      viewers.forEach((element) => {
+          let view = new ImageCompare(element, {
+              hoverStart: true,
+              addCircle: true
+          }).mount();
+      });
+      
+      $(document).ready(function () {
+          var editor = CodeMirror.fromTextArea(document.getElementById("bibtex"), {
+              lineNumbers: false,
+              lineWrapping: true,
+              readOnly: true
+          });
+          $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+          })
+      });
+   </script>
+   <br>
+   <p style="text-align:center"> Copyright: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0</a> © Mainak Singha | Last updated: 09 Jul 2024 |Template Credit: <a href="https://nerfies.github.io/"> Nerfies</a></p>
+   </body>
+</html>
