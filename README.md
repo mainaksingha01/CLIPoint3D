@@ -19,7 +19,7 @@ conda env create -f environment.yml
 conda activate clipoint3d
 ```
 
-This installs Python 3.9.20 and all dependencies including PyTorch 2.5.1 with CUDA 12.
+The environment supports Python 3.9.20 and all dependencies including PyTorch 2.5.1 with CUDA 12.
 
 ### 3. Install Dassl
 
