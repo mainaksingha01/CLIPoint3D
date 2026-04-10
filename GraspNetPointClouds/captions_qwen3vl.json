@@ -1,0 +1,72 @@
+{
+    "banana": [
+        "Curved, elongated shape with tapered ends",
+        "Smooth, slightly glossy surface",
+        "Distinct peel texture (often yellow or green)",
+        "Natural tapering from stem end to tip",
+        "Organic, non-symmetrical form"
+    ],
+    "box": [
+        "Cuboidal or rectangular prism structure",
+        "Flat planes forming six sides (top, bottom, four sides)",
+        "Sharp 90-degree angles between edges",
+        "Often sealed or closed with minimal openings",
+        "May have handles, labels, or flaps as features"
+    ],
+    "camel": [
+        "Large, humped body with long neck and legs",
+        "Arched back with one or two humps",
+        "Thick, shaggy coat covering most of the body",
+        "Long snout and large eyes",
+        "Four sturdy legs supporting a bulky torso"
+    ],
+    "can": [
+        "Cylindrical shape with flat circular top and bottom",
+        "Smooth, metallic or plastic surface",
+        "Uniform thickness throughout body",
+        "Label or printed branding on side",
+        "Slight taper or ridge near top for opening"
+    ],
+    "dish": [
+        "Circular or oval shallow bowl shape",
+        "Smooth, concave interior for holding food",
+        "Raised rim around edge for containment",
+        "Often made of ceramic or glass with glossy finish",
+        "Symmetrical and uniform depth profile"
+    ],
+    "drill machine": [
+        "Cylindrical main body with handle and trigger",
+        "Chuck at front for holding drill bits",
+        "Base or stand for stability during use",
+        "Rotating mechanism visible or implied",
+        "Metallic construction with ergonomic grip"
+    ],
+    "mouse": [
+        "Ergonomic curved shape designed for hand grip",
+        "Smooth surface with buttons or scroll wheel",
+        "Wireless or wired connection point (USB/Bluetooth)",
+        "Compact size with rounded edges",
+        "Typically has left/right click and scroll functions"
+    ],
+    "pears": [
+        "Oval shape with pointed tip and wider base",
+        "Smooth skin with slight dimpling or texture",
+        "Color gradient from green to yellow or red",
+        "Single stem at top connecting to fruit body",
+        "Asymmetric form due to natural growth pattern"
+    ],
+    "scissors": [
+        "Two blades joined at pivot point",
+        "Handle sections for finger grip",
+        "Blades converge to sharp cutting edge",
+        "Symmetrical design with mirrored arms",
+        "Metallic material with possible rubberized grips"
+    ],
+    "shampoo bottle": [
+        "Cylindrical or slightly tapered body",
+        "Pump dispenser or flip-top cap",
+        "Label wrapping around midsection",
+        "Transparent or opaque plastic material",
+        "Base with slight weight distribution for stability"
+    ]
+}

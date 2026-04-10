@@ -1,0 +1,72 @@
+{
+    "bathtub": [
+        "Curved and smooth edges (oval or rectangular basin shape)",
+        "Concavity for holding water",
+        "Presence of flat or slightly inclined base",
+        "Handles or fixtures like taps or knobs",
+        "Relative depth compared to surrounding features"
+    ],
+    "bed": [
+        "Rectangular shape with a flat top surface",
+        "Headboard and footboard presence",
+        "Uniform planar surface for the mattress",
+        "Raised above the ground with legs or a frame",
+        "Thicker profile compared to tables"
+    ],
+    "bookshelf": [
+        "Series of vertical and horizontal flat planes (shelves)",
+        "Multiple parallel layers arranged vertically",
+        "Open space between the layers",
+        "Relatively taller and narrower aspect ratio",
+        "Consistent spacing between horizontal planes"
+    ],
+    "cabinet": [
+        "Cuboidal structure with flat planes",
+        "Doors or drawers with a flush surface",
+        "Handles or knobs as distinct features",
+        "Larger enclosed volume with minimal open space",
+        "Base or legs for support"
+    ],
+    "chair": [
+        "L-shaped structure with a flat seat and backrest",
+        "Distinct legs for elevation",
+        "Presence of armrests (optional but frequent)",
+        "Smaller overall dimensions compared to beds and sofas",
+        "Angular relationships between the seat and backrest"
+    ],
+    "lamp": [
+        "Central vertical pole or support",
+        "Bulb-like or shade-shaped top structure",
+        "Relatively smaller base for stability",
+        "Presence of rounded or smooth shapes",
+        "Thin and elongated overall profile"
+    ],
+    "monitor": [
+        "Flat rectangular plane (screen surface)",
+        "Thinner profile compared to cabinets",
+        "Support stand with a flat or curved base",
+        "Consistent thickness throughout the structure",
+        "Absence of open spaces like shelves"
+    ],
+    "plant": [
+        "Irregular, organic branching structure (stems or trunks)",
+        "Clustered or distributed leaf-like patterns with high variability",
+        "Presence of fine, thin components (leaves, branches)",
+        "Central base or root structure connected to a pot or ground",
+        "Non-symmetric, natural, and uneven shapes"
+    ],
+    "sofa": [
+        "Extended flat surface for seating",
+        "Backrest and sometimes armrests",
+        "Bulkier than a chair",
+        "Smooth transitions between seating and backrest",
+        "Horizontal and slightly curved features"
+    ],
+    "table": [
+        "Flat horizontal top surface",
+        "Four legs (commonly) for support",
+        "Relatively larger top area compared to a chair",
+        "Uniformly spaced legs for stability",
+        "Absence of backrest or armrest features"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "banana": [
+        "Elongated, curved, and smooth shape",
+        "Presence of a narrow top and wider base",
+        "Thin, uniform skin with varying shades of color",
+        "Small stem or tip at the top",
+        "Generally smaller size compared to other objects"
+    ],
+    "box": [
+        "Rectangular or cuboidal structure with flat planes",
+        "Presence of a lid or opening for access",
+        "Handles or features for carrying",
+        "Uniform thickness and flat surfaces",
+        "Consistent spacing between edges and surfaces"
+    ],
+    "camel": [
+        "Large, elongated body with a flat top surface",
+        "Presence of a distinctive hump or ridge on the back",
+        "Two long legs and a pair of shorter back legs",
+        "Long, thin neck with a mobile head",
+        "Coarse, hairy, or woolly texture on the body"
+    ],
+    "can": [
+        "Cylindrical structure with a flat top and bottom",
+        "Presence of a spout or opening for pouring",
+        "Thicker walls and a rounded edge for safety",
+        "Handles or features for carrying",
+        "Consistent diameter and height"
+    ],
+    "dish": [
+        "Round or oval shape with a flat surface",
+        "Presence of a rim or edge for stability",
+        "Smooth, glazed, or ceramic surface",
+        "Handles or features for carrying",
+        "Generally smaller size compared to other objects"
+    ],
+    "drill machine": [
+        "Compact, rectangular structure with a flat surface",
+        "Presence of a rotating wheel or drill bit",
+        "Multiple buttons or features for control",
+        "Cords or cables for connection",
+        "Generally larger size compared to other tools"
+    ],
+    "mouse": [
+        "Small, compact body with a flat surface",
+        "Presence of a single button or wheel",
+        "Thin, lightweight design for portability",
+        "Smooth, flat, or rounded surfaces",
+        "Generally smaller size compared to other objects"
+    ],
+    "pears": [
+        "Symmetrical, rounded shape with a flat surface",
+        "Presence of a small stem or tip at the top",
+        "Thin, uniform skin with varying shades of color",
+        "Generally smaller size compared to other objects",
+        "Presence of a small leaf or leaf stem"
+    ],
+    "scissors": [
+        "Compact, two-handed structure with flat surfaces",
+        "Presence of a rotating or sliding mechanism",
+        "Blades or cutting edges for cutting",
+        "Handles or features for comfortable grip",
+        "Generally larger size compared to other tools"
+    ],
+    "shampoo bottle": [
+        "Cylindrical structure with a flat top and bottom",
+        "Presence of a cap or lid for access",
+        "Thicker walls and a rounded edge for safety",
+        "Label or branding on the surface",
+        "Consistent diameter and height"
+    ]
+}

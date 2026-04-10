@@ -1,0 +1,72 @@
+{
+    "banana": [
+        "Curved elongated shape with tapering ends",
+        "Smooth surface with slight ridges along the curve",
+        "Asymmetric cross-section (thicker middle, thinner ends)",
+        "Consistent curvature along the main axis",
+        "Lacks flat surfaces or sharp edges"
+    ],
+    "box": [
+        "Rectangular or cuboidal shape with flat planar surfaces",
+        "Distinct edges and sharp corners",
+        "Uniform height, width, and depth proportions",
+        "Closed structure with minimal concavity",
+        "Symmetrical along three perpendicular axes"
+    ],
+    "camel": [
+        "Organic, asymmetrical shape with four distinct limb-like structures",
+        "Raised central hump(s) on the back",
+        "Elongated neck and small head structure",
+        "Thin leg-like appendages relative to the body",
+        "Non-uniform surface curvature representing fur and body contours"
+    ],
+    "can": [
+        "Cylindrical structure with circular cross-section",
+        "Flat circular top and bottom surfaces",
+        "Uniform height-to-diameter ratio",
+        "Smooth continuous side surface without protrusions",
+        "Consistent radial symmetry around central axis"
+    ],
+    "dish": [
+        "Concave circular or oval shape",
+        "Thin and smooth outer rim with a shallow central depression",
+        "Flat or slightly raised base for stability",
+        "Symmetrical along both principal axes",
+        "Gradual curvature from edge toward center"
+    ],
+    "drill_ achine": [
+        "Elongated main body with a cylindrical or pistol-like grip",
+        "Protruding front section for the drill bit",
+        "Trigger region near the handle",
+        "Irregular industrial shape with mechanical features (vents, grooves)",
+        "Combination of curved and planar surfaces"
+    ],
+    "mouse": [
+        "Smooth curved upper shell with asymmetrical contour",
+        "Flattened base for surface contact",
+        "Raised central dome shape toward the back",
+        "Small size with ergonomic curvature",
+        "Absence of sharp edges or flat planes"
+    ],
+    "pears": [
+        "Bulbous lower region tapering toward a narrow top",
+        "Smooth, curved organic surface",
+        "Asymmetrical vertical profile",
+        "Thin stem-like feature at the top",
+        "Non-uniform curvature and subtle surface irregularities"
+    ],
+    "scissors": [
+        "Two elongated blades intersecting at a central pivot point",
+        "Looped or circular handles connected to each blade",
+        "Thin flat planar blades with sharp edges",
+        "Angular structure with a defined crossing axis",
+        "Combination of linear and curved geometric features"
+    ],
+    "shampoo bottle": [
+        "Tall cylindrical or slightly rectangular body",
+        "Smooth continuous surface with rounded edges",
+        "Narrow neck and cap structure at the top",
+        "Uniform curvature with minimal protrusions",
+        "Consistent vertical symmetry around central axis"
+    ]
+}

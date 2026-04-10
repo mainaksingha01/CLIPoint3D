@@ -1,0 +1,62 @@
+{
+    "banana": [
+        "elongated curved shape",
+        "tapered ends with asymmetry",
+        "smooth surface curvature without sharp edges",
+        "slight cylindrical cross-section"
+    ],
+    "box": [
+        "rectangular cuboid structure",
+        "flat planar surfaces",
+        "sharp right-angled corners",
+        "consistent edge lengths"
+    ],
+    "camel": [
+        "irregular organic body shape",
+        "distinct leg protrusions",
+        "arched back curvature",
+        "asymmetric head-neck extension"
+    ],
+    "can": [
+        "cylindrical body",
+        "flat circular top and bottom",
+        "uniform vertical symmetry",
+        "sharp rim edges at top and bottom"
+    ],
+    "dish": [
+        "shallow concave surface",
+        "thin circular rim",
+        "radial symmetry",
+        "smooth curvature from center to edge"
+    ],
+    "drill machine": [
+        "irregular mechanical shape",
+        "elongated cylindrical drill bit extension",
+        "grip-like handle structure",
+        "asymmetry between body and protruding drill"
+    ],
+    "mouse": [
+        "low-profile oval dome shape",
+        "smooth surface with slight curvature",
+        "flat bottom base",
+        "subtle ridge along centerline"
+    ],
+    "pear": [
+        "bulbous bottom with tapering top",
+        "asymmetric lopsided curvature",
+        "rounded base and narrow neck",
+        "absence of sharp edges"
+    ],
+    "scissors": [
+        "two elongated blades forming narrow cylindrical segments",
+        "pivot joint at intersection",
+        "looped handle structure",
+        "open/closed blade configuration variability"
+    ],
+    "shampoo bottle": [
+        "elongated vertical cylindrical or rectangular body",
+        "flat base for stability",
+        "narrower neck region compared to body",
+        "cap protrusion at top"
+    ]
+}
