@@ -3,7 +3,7 @@
 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.20409-b31b1b.svg)](https://arxiv.org/abs/2602.20409v1)
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://sarthakm320.github.io/CLIPoint3D)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://sarthakm320.github.io/CLIPoint3D/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
 ## Abstract
